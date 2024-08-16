@@ -10,11 +10,11 @@ const Footer = () => {
 						rel='noreferrer'
 						className='font-medium underline underline-offset-4'
 					>
-						you
+						Zihad Hasan
 					</a>
 					. The source code is available on{" "}
 					<a
-						href='https://github.com/shadcn-ui/ui'
+						href='https://github.com/maruf449'
 						target='_blank'
 						rel='noreferrer'
 						className='font-medium underline underline-offset-4'

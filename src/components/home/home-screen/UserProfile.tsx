@@ -36,7 +36,7 @@ const UserProfile = async () => {
 
 						{currentUser?.isSubscribed && (
 							<Button className='rounded-full flex gap-10' variant={"outline"}>
-								<span className='uppercase font-semibold tracking-wide'>Subscribed</span>
+								<span className='uppercase font-semibold tracking-wide text-blue-500'>Subscribed</span>
 							</Button>
 						)}
 					</div>

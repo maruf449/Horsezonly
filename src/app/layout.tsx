@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/providers/ThemeProvider";
 import Footer from "@/components/Footer";
 import TanStackProvider from "@/providers/TanStackProvider";
 import { Toaster } from "@/components/ui/toaster";
+import ScrollIndicator from "@/components/home/home-screen/Scrollindic";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +26,7 @@ export default function RootLayout({
 			<body className={inter.className}>
 				<ThemeProvider attribute='class' defaultTheme='system' enableSystem disableTransitionOnChange>
 					<div className='h-screen flex flex-col'>
+						<ScrollIndicator/>
 						<div className='flex-1'>
 							<TanStackProvider>{children}</TanStackProvider>
 						</div>
